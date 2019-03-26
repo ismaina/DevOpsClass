@@ -1,0 +1,447 @@
+  108  git clone https://github.com/realpython/python-speech-recognition.git
+  194  git config global.user "ismaina"
+  195  git global config 
+  196  git commit
+  199  git init
+  200  git commit
+  201  git config --global user.email "maina.wanjau@gmail.com"
+  202  git config --global user.name "ismaina"
+  204  rm -r ./.git/
+  205  rm -R ./.git/
+  209  git clone https://github.com/ismaina/mw_moringa.git
+  216  ssh -T git@github.com
+  217  ssh -T git@bitbucket.org
+  232  base=https://github.com/docker/machine/releases/download/v0.16.0 &&   curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&   sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+  256  git clone https://github.com/BretFisher/udemy-docker-mastery.git
+  626  git status
+  627  git remote add git@github.com:ismaina/mw_moringa.git
+  628  git remote add origin git@github.com:ismaina/mw_moringa.git
+  629  git add Dockerfile 
+  630  git commit -m "Exposed port 8080"
+  631  git push -u origin master
+  632  git status
+  664  git add Dockerfile 
+  665  git commit -m "Corrected file path from /user to /usr for the nginx webservice"
+  666  git push -u origin master
+  677  git remote -v
+  678  git branch
+  679  git branch -a
+  680  git branch -av
+  681  git branch --help
+  682  git checkout -b ubuntu_mw
+  683  git branch
+  684  git branch -av
+  685  git staus
+  686  git status
+  687  git add index.html 
+  688  git commit -m "made some grammatical changes to some html tags"
+  689  git branch
+  690  git push -u ubuntu_mw ubuntu_mw
+  691  git push -u origin ubuntu_mw
+  692  git checkout master
+  693  git branch 
+  694  git merge master ubuntu_mw 
+  695  git status
+  702  git config
+  703  git config --system
+  704  git config --global user.name "ismaina"
+  705  git config --global user.email "maina.wanjau@gmail.com"
+  706  git push -u origin master
+  753  git push -u origin master
+  754  git config user.name "ismaina"
+  755  git config user.email "maina.wanjau@gmail.com"
+  756  git push -u origin master
+  757  git hepl credentials
+  758  git config credential.helper store
+  759  git push
+  761  cat .git/config 
+  777  url = https://github.com/ismaina/mw_moringa.git
+  795  git add Jenkinsfile 
+  796  git commit -m "made stage changes on Jenkinsfile"
+  797  git branch
+  798  git push -u origin master
+  827  git init
+  830  git status
+  833  git add test.txt 
+  834  git status
+  835  git add test1.txt 
+  836  git rm test1.txt 
+  837  git rm -f test1.txt 
+  838  git statis
+  839  git status
+  840  git commit -m "First Commit"
+  843  git add test1.txt 
+  844  git commit -m "This is my 2nd commit"
+  845  git status
+  846  git log 
+  847  git ls
+  848  git ls-files
+  850  git status
+  851  git add test.txt 
+  852  git commit -m "Made changes to first file"
+  853  git logg
+  854  git log
+  855  git show 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c
+  856  git diff 
+  857  git diff 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c 54cf800eb557b6853aa3a92eb27c5549b8f4bfca
+  858  git log
+  859  git diff 54cf800eb557b6853aa3a92eb27c5549b8f4bfca 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c
+  860  git rm test.txt 
+  861  git commit -m "deleted test.txt file"
+  863  git add test2.txt 
+  864  git commit -m "adding test2 file"
+  865  git ls-files
+  866  git rm --cached test2.txt 
+  867  git ls-files
+  869  git status 
+  870  git commit -m "deleted test2.txtfile"
+  871  git status
+  884  touch .gitignore
+  885  gedit .gitignore 
+  886  git add .gitignore 
+  887  git commit -m "adding .gitignore file"
+  890  git ls-files
+  891  git status
+  896  git ls-files
+  897  git status
+  898  vi .gitignore 
+  899  vim .gitignore 
+  901  git log --oinline
+  902  git log --online
+  903  git log --onwline
+  904  git log --oneline
+  905  git tag -v1.0 64f14a5 -m "adding tags"
+  906  git tag -a v1.0 64f14a5 -m "adding tags"
+  907  git show v1.0 
+  908  git log
+  909  git log --oneline
+  910  git tag -a v2.0 54cf800 -m "making changes"
+  911  git tag
+  912  git tag --help
+  913  git log --oneline
+  914  git tag -a v3.0 452d959 2ae224a -m "tagging third commit
+  915  git tag -a v3.0 452d959 2ae224a -m "tagging third commit"
+  918  git show
+  919  git show v1.0 
+  921  git log --oneline
+  923  git revert 2ae224a
+  925  git status
+  926  git add test3.txt 
+  927  git commit test3.txt -m "Added text3.txt file"
+  928  git tag 
+  929  git tag -a v3.0 
+  930  git log
+  931  git log --online
+  932  git log --oneline
+  933  git tag -a v3.0 96729d7 -m "Added 3rd file"
+  935  git tag -a v3.0 96729d7 -m "Added 3rd file"
+  936  git log --oneline
+  937  git reset --hard dfd7566
+  939  git reset --help
+  940  git log --oneline
+  941  git status
+  944  git ls-files
+  945  git checkout -b b1
+  946  git checkout -b b1 master
+  947  git branch 
+  948  git branch --help
+  949  git branch -D b1 
+  950  git branch master 
+  951  git checkout  master 
+  952  git branch -D b1 
+  953  git checkout -b b1 master 
+  956  git add test5.txt 
+  957  git commit -m "added test5.txt"
+  959  git ls-files
+  960  git branch 
+  961  git branch master
+  962  git checkout master
+  964  git diff b1 master 
+  965  git diff master b1
+  966  git branch
+  967  git log --oneline
+  968  git checkout b1
+  969  git log --oneline
+  972  git add name.txt 
+  973  git commit -m "adding name.txt file"
+  974  git statis
+  975  git status
+  978  git checkout master
+  980  git merge b1 
+  982  git log
+  983  git log --online
+  984  git log --oneline
+  991  git add name1.txt 
+  992  git commit -m "adding name1.txt"
+  993  git diff master..b1
+  994  git stash 
+  995  git stash --help
+  996  git status
+  997  git branch
+  998  git checkout b1
+  999  git status
+ 1000  git checkout master
+ 1002  git status
+ 1003  git stash 
+ 1004  git status
+ 1005  git stash  list 
+ 1006  git show stash@{0}
+ 1007  git stash pop
+ 1008  git status
+ 1010  git branch
+ 1011  git status
+ 1012  git add test1.txt 
+ 1013  git commit -m "added changes to test1.txt"
+ 1014  git remote add origin https://github.com/ismaina/DevOpsClass.git
+ 1015  git push origin master
+ 1017  gedit .git/config 
+ 1018  git push origin master
+ 1019  git remote -v
+ 1026  git add name.txt 
+ 1027  git commit -m "made changes on name.txt"
+ 1028  git push origin mater
+ 1029  git push origin master
+ 1030  git config
+ 1031  git push --help
+ 1032  git checkout b1
+ 1033  git remote add origin https://github.com/ismaina/DevOpsClass.git
+ 1034  git push origin b1 
+ 1035  git checkout master 
+ 1036  history | grep "git checkout"
+ 1037  git checkout -b b2 master 
+ 1040  git add learn.txt 
+ 1041  git commit -m "added learn file"
+ 1042  git push origin b2
+ 1043  git remote -v
+ 1044  git pull origin b2 
+ 1047  git remote -v
+ 1048  git remote add mw https://github.com/ismaina/DevOpsClass2.git
+ 1049  git remote -v
+ 1050  git push mw b2
+ 1051  git status
+ 1052  git pull mw b2 
+ 1054  history | grep "git" >> commands.txt
+  108  git clone https://github.com/realpython/python-speech-recognition.git
+  194  git config global.user "ismaina"
+  195  git global config 
+  196  git commit
+  199  git init
+  200  git commit
+  201  git config --global user.email "maina.wanjau@gmail.com"
+  202  git config --global user.name "ismaina"
+  204  rm -r ./.git/
+  205  rm -R ./.git/
+  209  git clone https://github.com/ismaina/mw_moringa.git
+  216  ssh -T git@github.com
+  217  ssh -T git@bitbucket.org
+  232  base=https://github.com/docker/machine/releases/download/v0.16.0 &&   curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&   sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+  256  git clone https://github.com/BretFisher/udemy-docker-mastery.git
+  626  git status
+  627  git remote add git@github.com:ismaina/mw_moringa.git
+  628  git remote add origin git@github.com:ismaina/mw_moringa.git
+  629  git add Dockerfile 
+  630  git commit -m "Exposed port 8080"
+  631  git push -u origin master
+  632  git status
+  664  git add Dockerfile 
+  665  git commit -m "Corrected file path from /user to /usr for the nginx webservice"
+  666  git push -u origin master
+  677  git remote -v
+  678  git branch
+  679  git branch -a
+  680  git branch -av
+  681  git branch --help
+  682  git checkout -b ubuntu_mw
+  683  git branch
+  684  git branch -av
+  685  git staus
+  686  git status
+  687  git add index.html 
+  688  git commit -m "made some grammatical changes to some html tags"
+  689  git branch
+  690  git push -u ubuntu_mw ubuntu_mw
+  691  git push -u origin ubuntu_mw
+  692  git checkout master
+  693  git branch 
+  694  git merge master ubuntu_mw 
+  695  git status
+  702  git config
+  703  git config --system
+  704  git config --global user.name "ismaina"
+  705  git config --global user.email "maina.wanjau@gmail.com"
+  706  git push -u origin master
+  753  git push -u origin master
+  754  git config user.name "ismaina"
+  755  git config user.email "maina.wanjau@gmail.com"
+  756  git push -u origin master
+  757  git hepl credentials
+  758  git config credential.helper store
+  759  git push
+  761  cat .git/config 
+  777  url = https://github.com/ismaina/mw_moringa.git
+  795  git add Jenkinsfile 
+  796  git commit -m "made stage changes on Jenkinsfile"
+  797  git branch
+  798  git push -u origin master
+  827  git init
+  830  git status
+  833  git add test.txt 
+  834  git status
+  835  git add test1.txt 
+  836  git rm test1.txt 
+  837  git rm -f test1.txt 
+  838  git statis
+  839  git status
+  840  git commit -m "First Commit"
+  843  git add test1.txt 
+  844  git commit -m "This is my 2nd commit"
+  845  git status
+  846  git log 
+  847  git ls
+  848  git ls-files
+  850  git status
+  851  git add test.txt 
+  852  git commit -m "Made changes to first file"
+  853  git logg
+  854  git log
+  855  git show 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c
+  856  git diff 
+  857  git diff 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c 54cf800eb557b6853aa3a92eb27c5549b8f4bfca
+  858  git log
+  859  git diff 54cf800eb557b6853aa3a92eb27c5549b8f4bfca 2dac1e0a57328aa015c6cf5a1ccedf5254c90c6c
+  860  git rm test.txt 
+  861  git commit -m "deleted test.txt file"
+  863  git add test2.txt 
+  864  git commit -m "adding test2 file"
+  865  git ls-files
+  866  git rm --cached test2.txt 
+  867  git ls-files
+  869  git status 
+  870  git commit -m "deleted test2.txtfile"
+  871  git status
+  884  touch .gitignore
+  885  gedit .gitignore 
+  886  git add .gitignore 
+  887  git commit -m "adding .gitignore file"
+  890  git ls-files
+  891  git status
+  896  git ls-files
+  897  git status
+  898  vi .gitignore 
+  899  vim .gitignore 
+  901  git log --oinline
+  902  git log --online
+  903  git log --onwline
+  904  git log --oneline
+  905  git tag -v1.0 64f14a5 -m "adding tags"
+  906  git tag -a v1.0 64f14a5 -m "adding tags"
+  907  git show v1.0 
+  908  git log
+  909  git log --oneline
+  910  git tag -a v2.0 54cf800 -m "making changes"
+  911  git tag
+  912  git tag --help
+  913  git log --oneline
+  914  git tag -a v3.0 452d959 2ae224a -m "tagging third commit
+  915  git tag -a v3.0 452d959 2ae224a -m "tagging third commit"
+  918  git show
+  919  git show v1.0 
+  921  git log --oneline
+  923  git revert 2ae224a
+  925  git status
+  926  git add test3.txt 
+  927  git commit test3.txt -m "Added text3.txt file"
+  928  git tag 
+  929  git tag -a v3.0 
+  930  git log
+  931  git log --online
+  932  git log --oneline
+  933  git tag -a v3.0 96729d7 -m "Added 3rd file"
+  935  git tag -a v3.0 96729d7 -m "Added 3rd file"
+  936  git log --oneline
+  937  git reset --hard dfd7566
+  939  git reset --help
+  940  git log --oneline
+  941  git status
+  944  git ls-files
+  945  git checkout -b b1
+  946  git checkout -b b1 master
+  947  git branch 
+  948  git branch --help
+  949  git branch -D b1 
+  950  git branch master 
+  951  git checkout  master 
+  952  git branch -D b1 
+  953  git checkout -b b1 master 
+  956  git add test5.txt 
+  957  git commit -m "added test5.txt"
+  959  git ls-files
+  960  git branch 
+  961  git branch master
+  962  git checkout master
+  964  git diff b1 master 
+  965  git diff master b1
+  966  git branch
+  967  git log --oneline
+  968  git checkout b1
+  969  git log --oneline
+  972  git add name.txt 
+  973  git commit -m "adding name.txt file"
+  974  git statis
+  975  git status
+  978  git checkout master
+  980  git merge b1 
+  982  git log
+  983  git log --online
+  984  git log --oneline
+  991  git add name1.txt 
+  992  git commit -m "adding name1.txt"
+  993  git diff master..b1
+  994  git stash 
+  995  git stash --help
+  996  git status
+  997  git branch
+  998  git checkout b1
+  999  git status
+ 1000  git checkout master
+ 1002  git status
+ 1003  git stash 
+ 1004  git status
+ 1005  git stash  list 
+ 1006  git show stash@{0}
+ 1007  git stash pop
+ 1008  git status
+ 1010  git branch
+ 1011  git status
+ 1012  git add test1.txt 
+ 1013  git commit -m "added changes to test1.txt"
+ 1014  git remote add origin https://github.com/ismaina/DevOpsClass.git
+ 1015  git push origin master
+ 1017  gedit .git/config 
+ 1018  git push origin master
+ 1019  git remote -v
+ 1026  git add name.txt 
+ 1027  git commit -m "made changes on name.txt"
+ 1028  git push origin mater
+ 1029  git push origin master
+ 1030  git config
+ 1031  git push --help
+ 1032  git checkout b1
+ 1033  git remote add origin https://github.com/ismaina/DevOpsClass.git
+ 1034  git push origin b1 
+ 1035  git checkout master 
+ 1036  history | grep "git checkout"
+ 1037  git checkout -b b2 master 
+ 1040  git add learn.txt 
+ 1041  git commit -m "added learn file"
+ 1042  git push origin b2
+ 1043  git remote -v
+ 1044  git pull origin b2 
+ 1047  git remote -v
+ 1048  git remote add mw https://github.com/ismaina/DevOpsClass2.git
+ 1049  git remote -v
+ 1050  git push mw b2
+ 1051  git status
+ 1052  git pull mw b2 
+ 1054  history | grep "git" >> commands.txt
+ 1056  history | grep "git" >> commands.txt
